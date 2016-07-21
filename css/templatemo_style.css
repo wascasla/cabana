@@ -7,6 +7,11 @@ http://www.templatemo.com/free-website-templates/417-grill
 */
 
 /*-- Basic --*/
+
+.negra{
+	text-shadow: #080808;
+}
+
 a {
   text-decoration: none;
   color: #f78e21;
@@ -149,7 +154,7 @@ p {
 /*-- Heading --*/
 
 #heading {
-  background-image: url(../images/bg-image.jpg);
+  background-image: url(../images/bg-image2.jpg);
   height: 140px;
 }
 
@@ -817,7 +822,7 @@ textarea {
 }
 
 .slider-caption h1 {
-  text-shadow: 1px 1px #777;
+  text-shadow: 1px 1px #080808 /*1px 1px #777*/;
   font-size: 48px;
   padding-bottom: 10px;
   font-weight: 500;
