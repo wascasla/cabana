@@ -71,7 +71,7 @@ http://www.templatemo.com/free-website-templates/417-grill
                             </div>
                             <div class="col-md-3"> 
                                 <div class="search-box">  
-                                <a href="#"><strong><i class="fa fa-phone"></i>&nbsp;RESERVAS 383-154326310</strong></a>
+                                <a href="#"><strong><i class="fa fa-phone"></i>&nbsp;RESERVAS 383-154690062</strong></a>
                                     
                                 </div>
                             </div>
@@ -237,6 +237,14 @@ http://www.templatemo.com/free-website-templates/417-grill
 			var map = new google.maps.Map(document.getElementById("googleMap"), map_options);
 			var marcador = new google.maps.Marker({  
 			position: new google.maps.LatLng(-28.425707, -65.731232),
+			map: map,
+			draggable:true,
+            animation: google.maps.Animation.BOUNCE,
+			title: 'Ingreso a la Finca'						   	
+			});
+			
+			var marcador2 = new google.maps.Marker({  
+			position: new google.maps.LatLng(-29.425707, -66.731232),
 			map: map,
 			draggable:true,
             animation: google.maps.Animation.BOUNCE,
