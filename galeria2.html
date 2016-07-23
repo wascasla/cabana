@@ -15,7 +15,7 @@ http://www.templatemo.com/free-website-templates/417-grill
         <title>Galeria - Finca La Tregua Cabanas</title>
         <meta name="description" content="Galeria de imagenes de Cabañas, Finca La Tregua en Catamarca Capital">
         <meta name="viewport" content="width=device-width">
-        
+
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -25,13 +25,14 @@ http://www.templatemo.com/free-website-templates/417-grill
         <link rel="stylesheet" href="css/flexslider.css">
         <link rel="stylesheet" href="css/testimonails-slider.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/visuallightbox.css" type="text/css" />
-		<link rel="stylesheet" href="css/vlightbox.css" type="text/css" />
-		
+		<link rel="stylesheet" href="src/css/swipebox.css">
 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+        <script src="lib/jquery-2.0.3.js"></script>
+        <script src="src/js/jquery.swipebox.js"></script>
     </head>
     <body>
+
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
@@ -86,271 +87,62 @@ http://www.templatemo.com/free-website-templates/417-grill
 
             <div id="products-post">
                 <div class="container">
-                    <!-- <div class="row">
-                        <div class="col-md-12">
-                            <div id="product-heading">
-                                <h2>Hungry ?</h2>
-                                <img src="images/under-heading.png" alt="" >
-                            </div>
-                        </div>
-                    </div> -->
-                    <!-- <div class="row">
-                        <div class="filters col-md-12 col-xs-12">
-                            <ul id="filters" class="clearfix">
-                                <li><span class="filter" data-filter="all">All</span></li>
-                                <li><span class="filter" data-filter=".ginger">Ginger</span></li>
-                                <li><span class="filter" data-filter=".pizza">Pizza</span></li>
-                                <li><span class="filter" data-filter=".pasta">Pasta</span></li>
-                                <li><span class="filter" data-filter=".drink">Drink</span></li>
-                                <li><span class="filter" data-filter=".hamburger">Hamburger</span></li>
-                            </ul>
-                        </div>
-                    </div> -->
-					<div id="vlightbox">
-        <a id="firstImage" title="image 1" href="images/product11_big.jpg" class="vlightbox"><img alt="image 1" src="images/product11_big.jpg" /></a>
-        <a title="image 2" href="images/product11_big.jpg" class="vlightbox"><img alt="image 2" src="images/product11_big.jpg" /></a>
-        <a title="image 3" href="images/product11_big.jpg" class="vlightbox"><img alt="image 3" src="images/product11_big.jpg" /></a>
-        <a title="image 4" href="images/product11_big.jpg" class="vlightbox"><img alt="image 4" src="images/product11_big.jpg" /></a>
-        <a title="image 5" href="images/product11_big.jpg" class="vlightbox vlightbox_hidden"><img alt="image 5" src="images/product11_big.jpg" /></a>
-    </div>
-					
-					
-                    <div class="row" id="Container">
-                        <div class="col-md-3 col-sm-6 mix portfolio-item Pizza">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product11.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product11_big.jpg"><img src="images/open-icon.png" alt="Dormitorio Matrimonial, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Dormitorio Matrimonial</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Dormitorio Matrimonial</h3>                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item ginger">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product12.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product12_big.jpg"><img src="images/open-icon.png" alt="Dormitorio 3 habitaciones, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Dormitorio</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Dormitorio</h3>                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item pizza">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product13.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product13_big.jpg"><img src="images/open-icon.png" alt="Cocina Comedor, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Cocina-Comedor</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Cocina-Comedor</h3>                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item pasta">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product14.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product14_big.jpg"><img src="images/open-icon.png" alt="Cocina Comedor, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Cocina-Comedor</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Cocina-Comedor</h3>                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item drink">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product15.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product15_big.jpg"><img src="images/open-icon.png" alt="Baño, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Baño</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Baño</h3>                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item hamburger">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product16.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product16_big.jpg"><img src="images/open-icon.png" alt="Exterior, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Exterior</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Exterior</h3>                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item pizza">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product17.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product17_big.jpg"><img src="images/open-icon.png" alt="Cocina, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Cocina</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Cocina</h3>
-                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item pasta">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product18.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product18_big.jpg"><img src="images/open-icon.png" alt="Comedor, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Comedor</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Comedor</h3>
-                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item hamburger">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product19.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product19_big.jpg"><img src="images/open-icon.png" alt="Baño, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Baño</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Baño</h3>                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item drink">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product20.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product20_big.jpg"><img src="images/open-icon.png" alt="Exterior, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Exterior</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Exterior</h3>
-                                   
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item ginger">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product21.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product21_big.jpg"><img src="images/open-icon.png" alt="Sala de Star, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Star</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Star</h3>
-                                    
-                                </div>
-                            </div>          
-                        </div>
-                        <div class="col-md-3 col-sm-6 mix portfolio-item pasta">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product22.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product22_big.jpg"><img src="images/open-icon.png" alt="Patio, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Patio</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Patio</h3>
-                                    
-                                </div>
-                            </div>          
-                        </div>
-						<!-- otro nuevo -->
-						<div class="col-md-3 col-sm-6 mix portfolio-item pasta">       
-                            <div class="portfolio-wrapper">                
-                                <div class="portfolio-thumb">
-                                    <img src="images/product23.jpg" alt="" />
-                                    <div class="hover">
-                                        <div class="hover-iner">
-                                            <a class="fancybox" href="images/product23_big.jpg"><img src="images/open-icon.png" alt="Exterior de noche, Cabañas Finca La Tregua, Catamarca Capital" /></a>
-                                            <span>Patio</span>
-                                        </div>
-                                    </div>
-                                </div>  
-                                <div class="label-text">
-                                    <h3>Patio</h3>
-                                    
-                                </div>
-                            </div>          
-                        </div>
-						
-                    </div>
-                    <!-- <div class="pagination">
-                        <div class="row">   
-                            <div class="col-md-12">
-                                <ul>
-                                	<li><a href="#">Previous</a></li>
-                                    <li><a href="#">1</a></li>
-                                    <li><a href="#">2</a></li>
-                                    <li><a href="#">3</a></li>
-                                    <li><a href="#">4</a></li>
-                                    <li><a href="#">Next</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->     
+
+
+                
+                    <a title="Dormitorio Matrimonial, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product11_big.jpg">
+                        <img alt="image" src="images/product11.jpg">
+                    </a>
+
+                    <a title="Dormitorio 3 habitaciones, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product12_big.jpg">
+                        <img alt="image" src="images/product12.jpg">
+                    </a>
+
+                    <a title="Cocina Comedor, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product13_big.jpg">
+                        <img alt="image" src="images/product13.jpg">
+                    </a>
+
+                    <a title="Cocina Comedor, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product14_big.jpg">
+                        <img alt="image" src="images/product14.jpg">
+                    </a>
+
+                    <a title="Baño, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product15_big.jpg">
+                        <img alt="image" src="images/product15.jpg">
+                    </a>
+
+                    <a title="Exterior, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product16_big.jpg">
+                        <img alt="image" src="images/product16.jpg">
+                    </a>
+
+                    <a title="Cocina, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product17_big.jpg">
+                        <img alt="image" src="images/product17.jpg">
+                    </a>
+                    
+                    <a title="Comedor, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product18_big.jpg">
+                        <img alt="image" src="images/product18.jpg">
+                    </a>
+                    
+                    <a title="Baño, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product19_big.jpg">
+                        <img alt="image" src="images/product19.jpg">
+                    </a>
+
+                    <a title="Exterior, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product20_big.jpg">
+                        <img alt="image" src="images/product20.jpg">
+                    </a>
+
+                    <a title="Sala de Star, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product21_big.jpg">
+                        <img alt="image" src="images/product21.jpg">
+                    </a>
+
+                    <a title="Patio, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product22_big.jpg">
+                        <img alt="image" src="images/product22.jpg">
+                    </a>
+
+                    <a title="Exterior de noche, Cabañas Finca La Tregua, Catamarca Capital" class="swipebox" href="images/product23_big.jpg">
+                        <img alt="image" src="images/product23.jpg">
+                    </a>
                 </div>
             </div>
-
-
 
 			<footer>
                 <div class="container">
@@ -396,15 +188,30 @@ http://www.templatemo.com/free-website-templates/417-grill
                 </div>
             </footer>
 
-    
-        <script src="js/vendor/jquery-1.11.0.min.js"></script>
-        <script src="js/vendor/jquery.gmap3.min.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-		<script type="text/javascript">
-			var $VisualLightBoxParams$ = {autoPlay:true,borderSize:21,enableSlideshow:true,overlayOpacity:0.4,startZoom:true};
-		</script>
-		<script type="text/javascript" src="js/visuallightbox.js"></script>
+        <script src="lib/ios-orientationchange-fix.js"></script>
+        <script src="lib/jquery-2.1.0.min.js"></script>
+        <script src="src/js/jquery.swipebox.js"></script>
+        <script type="text/javascript">
+        $( document ).ready(function() {
 
+                /* Basic Gallery */
+                $( '.swipebox' ).swipebox();
+                
+                /* Video */
+                $( '.swipebox-video' ).swipebox();
+
+                /* Dynamic Gallery */
+                /*
+                $( '#gallery' ).click( function( e ) {
+                    e.preventDefault();
+                    $.swipebox( [
+                        { href : 'http://swipebox.csag.co/mages/image-1.jpg', title : 'My Caption' },
+                        { href : 'http://swipebox.csag.co/images/image-2.jpg', title : 'My Second Caption' }
+                    ] );
+                } );
+                */
+
+          });
+        </script>
     </body>
 </html>
