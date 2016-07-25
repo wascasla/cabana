@@ -49,7 +49,7 @@ if(isset($_POST['email'])) {
 
     $message = $_POST['text']; // requerido
  
-    $error_message = "Error";
+    $error_message = "";
 
 //En esta parte se verifica que la dirección de correo sea válida 
     
@@ -127,9 +127,7 @@ $headers = 'De: '.$email."\r\n".
 @mail($email_to, $email_subject, $email_message, $headers);  
  
 ?>
- 
- 
- 
+
 <!-- incluye aqui tu propio mensaje de Éxito-->
  
 Gracias! Nos pondremos en contacto contigo a la brevedad
