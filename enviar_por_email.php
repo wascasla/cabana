@@ -3,8 +3,7 @@ if(isset($_POST['email'])) {
  
     // Edita las dos líneas siguientes con tu dirección de correo y asunto personalizados
  
-    $email_to = "
- ingengroupcat@gmail.com";
+    $email_to = "ingengroupcat@gmail.com";
  
     $email_subject = "Consulta desde pagina";   
  
@@ -18,7 +17,7 @@ if(isset($_POST['email'])) {
         
         echo $error."<br /><br />";
  
-        echo "Porfavor corrija estos errores e inténtelo de nuevo.<br /><br />";
+        echo "Por favor corrija estos errores e inténtelo de nuevo.<br /><br />";
         die();
     }
  
